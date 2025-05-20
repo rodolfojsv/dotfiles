@@ -1,0 +1,15 @@
+[window]
+padding = { x = 15, y = 15 }
+opacity = 0.85
+# blur = true
+
+[scrolling]
+history = 100000
+multiplier = 3
+
+[font]
+size = 12.5
+# normal = { family = "monospace", style = "Regular" }
+# normal = { family = "JetBrainsMonoNerdFont", style = "Regular" }
+offset = { y = 3 }
+
