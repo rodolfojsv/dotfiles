@@ -27,7 +27,6 @@ exec_always --no-startup-id ~/.config/polybar/launch_polybar.sh
 bindsym $mod+Shift+1 exec maim "/home/$USER/Pictures/$(date).jpg"
 bindsym $mod+Ctrl+1 exec maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date).jpg"
 bindsym $mod+Ctrl+4 exec maim --select "/home/$USER/Pictures/$(date).jpg"
-
 ## Clipboard Screenshots
 bindsym $mod+Shift+4 exec maim --select | xclip -selection clipboard -t image/png
 
@@ -186,8 +185,8 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-gaps inner 5 
-gaps outer 2 
+gaps top 40
+gaps inner 10 
 
 workspace 2 gaps inner 0
 workspace 2 gaps outer 0
