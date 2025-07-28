@@ -19,6 +19,7 @@ set $mod Mod4
 exec --no-startup-id picom
 exec --no-startup-id feh --bg-scale ~/backgrounds/cherry_blossom_flipped.png
 exec --no-startup-id xrdb -merge ~/.Xresources
+exec --no-startup-id localsend
 exec_always --no-startup-id setxkbmap -option ctrl:nocaps
 
 # kill any hanging polybar processes
